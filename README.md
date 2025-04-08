@@ -7,7 +7,10 @@ This repository contains an open dataset collected from our experimental study o
 The dataset contains measurements from a commercial GPON platform with SDN orchestration for dynamic T-CONT configuration, enabling traffic-adaptive uplink resource allocation. It demonstrates how existing GPON FTTH infrastructure can efficiently support small cell backhaul in FMC scenarios.
 
 ## Download the Dataset
-The dataset is available for download [here](https://partage.imt.fr/index.php/s/R8mBAHFo5gL7Wym).
+The dataset is available for download from the following mirrors:
+
+[French mirror](https://partage.imt.fr/index.php/s/R8mBAHFo5gL7Wym).
+[Uruguayan mirror](https://nube.fing.edu.uy/index.php/s/LdDn25qaCitWY6Z).
 
 ### Contents
 - 44,385 measurement points (703.8 MB of CSV data)
