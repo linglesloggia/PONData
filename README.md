@@ -1,17 +1,16 @@
-# Fixed-Mobile Convergence (FMC) PON Dataset
+# Dynamic PON Configuration Dataset
 
-This repository contains an open dataset collected from our experimental study on Dynamic PON Configuration for Fixed-Mobile Convergence applications.
+This repository contains an open dataset collected from our experimental study on dynamic configuration of Passive Optical Networks (PON). The dataset captures detailed measurements under varying traffic conditions and T-CONT configurations.
 
 ## Dataset Overview
 
-The dataset contains measurements from a commercial GPON platform with SDN orchestration for dynamic T-CONT configuration, enabling traffic-adaptive uplink resource allocation. It demonstrates how existing GPON FTTH infrastructure can efficiently support small cell backhaul in FMC scenarios.
+The dataset includes measurements from a commercial GPON platform equipped with SDN orchestration to enable traffic-adaptive uplink resource allocation. It serves as a valuable resource for analyzing GPON performance and testing dynamic configuration strategies in realistic network conditions.
 
 ## Download the Dataset
 The dataset is available for download from the following mirrors:
 
-[French mirror](https://partage.imt.fr/index.php/s/R8mBAHFo5gL7Wym)
-
-[Uruguayan mirror](https://nube.fing.edu.uy/index.php/s/LdDn25qaCitWY6Z)
+- [French mirror](https://partage.imt.fr/index.php/s/R8mBAHFo5gL7Wym)  
+- [Uruguayan mirror](https://nube.fing.edu.uy/index.php/s/LdDn25qaCitWY6Z)
 
 ### Contents
 - 44,385 measurement points (703.8 MB of CSV data)
@@ -20,23 +19,23 @@ The dataset is available for download from the following mirrors:
 
 ## Experimental Setup
 
-The experiment used commercial deployment devices including:
+The experiment was carried out using commercial deployment equipment, including:
 - OLT
-- 16 ONUs (1 for mobile traffic, 15 for fixed clients)
+- 16 ONUs
 - Traffic generator
-- Switches
+- Ethernet switches
 - Server
-- SDN controller layer
+- SDN controller
 
 ### Traffic Patterns
-- **Fixed users**: 15 ONUs with profiles showing minimal usage at 3 a.m. and peak usage at 9 p.m.
-- **Mobile traffic**: 1 dedicated ONU with peak traffic at 3 p.m.
-- Users classified into heavy, medium, and low usage groups
+- **Fixed clients**: 15 ONUs with usage profiles showing minimal activity at 3 a.m. and peak at 9 p.m.
+- **High-demand ONU**: 1 ONU simulating bursty or mobile-like traffic, with peak usage at 3 p.m.
+- Users were grouped into heavy, medium, and low usage categories
 
 ### T-CONT Configuration
-- **TCONT 1** for mobile traffic (defined by FIR parameter)
-- **TCONT 3** for fixed clients (defined by PIR and CIR parameters)
-- Multiple FIR-PIR combinations tested throughout data collection
+- **TCONT 1**: Used for high-demand traffic, defined by the FIR parameter
+- **TCONT 3**: Used for regular client traffic, defined by PIR and CIR parameters
+- Multiple combinations of FIR, PIR, and CIR values were tested during data collection
 
 ## Dataset Structure
 
@@ -49,14 +48,15 @@ The experiment used commercial deployment devices including:
 └── models/            # Prediction models from the paper
 ```
 
+
 ## Use Cases
 
 This dataset can be used for:
-1. Analyzing PON behavior under various traffic conditions
-2. Training prediction models for network configuration optimization
-3. Developing algorithms for dynamic resource allocation
-4. Benchmarking FMC solutions
-5. Research on QoS management in shared optical infrastructure
+1. Analyzing GPON performance under diverse traffic conditions
+2. Training ML models for network configuration prediction
+3. Testing dynamic bandwidth allocation algorithms
+4. Benchmarking PON solutions in research
+5. Studying QoS management in shared optical infrastructure
 
 ## Citation
 
@@ -64,13 +64,3 @@ If you use this dataset in your research, please cite our paper:
 
 ```bibtex
  
-```
-
-## License
-
-This dataset is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
-
-## Acknowledgements
-
-This work was funded by the DGE IPCEI ME/CT Orange and the STIC-AmSud RAMONaaS projects and was conducted in the framework of the Lab'Optic, a joint research initiative between the UMR-6285 Lab-STICC, the UMR 6082 Foton Institute and Orange Innovation.
-
