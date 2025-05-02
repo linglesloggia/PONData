@@ -9,7 +9,7 @@ The dataset includes measurements from a commercial GPON platform equipped with 
 ## Download the Dataset
 The dataset is available for download from the following mirrors:
 
-- [French mirror]([https://partage.imt.fr/index.php/s/R8mBAHFo5gL7Wym](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2))  
+- [French mirror](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)  
 - [Uruguayan mirror](https://nube.fing.edu.uy/index.php/s/LdDn25qaCitWY6Z)
 
 ### Contents
