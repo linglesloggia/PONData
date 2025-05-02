@@ -21,8 +21,6 @@ If you use this dataset in a publication, please cite it as follows:
 
 This repository contains an open dataset collected from our experimental study on dynamic configuration of Passive Optical Networks (PON). The dataset captures detailed measurements under varying traffic conditions and T-CONT configurations.
 
-⚠️ This dataset is continuously growing. New configurations and measurements will be added over time.
-
 ## Dataset Overview
 
 
@@ -60,6 +58,9 @@ This dataset can be used for:
 3. Testing dynamic bandwidth allocation algorithms
 4. Benchmarking PON solutions in research
 5. Studying QoS management in shared optical infrastructure
+
+Thank you for your interest in our dataset! We hope it serves as a valuable resource for your research and development efforts in the field of PON optimization and network performance analysis. This dataset is continuously growing. New configurations and measurements will be added over time.
+
 
 ### References
 [1] Feknous et al., *Internet traffic analysis*, 2014.  
