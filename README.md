@@ -26,15 +26,19 @@ This repository contains an open dataset collected from our experimental study o
 
 The dataset is available for download [here](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
 
-The dataset includes:
+Each dataset (ZIP file) corresponds to a specific 24-hour traffic pattern. Currently, six datasets are available (and the collection is growing), each featuring a distinct traffic behavior. These datasets include:
 
-- 2.43 GB of CSV data
-- Includes traffic generator outputs and network parameters
-- Currently 6 datasets are available (still growing), each with different configurations and traffic patterns
-- Network configurations and user traffic profiles recorded at regular 12-minute intervals across the emulated 24-hour period.
-- Performance results for each combination of configuration and traffic profile, including eighty-eight metrics per direction (uplink and downlink) such as latency, frame loss ratio, bit error rate, throughput, and packet size.
-- Traffic patterns derived from both real-world studies [1,2,3] and synthetic scenarios, applied to various network configurations.
-- Data stored in multi-indexed Pandas DataFrames for structured analysis.
+- **2.43 GB** of CSV-formatted data  
+- Outputs from a **traffic generator** and associated **network parameters**  
+- **Network configurations** and **user traffic profiles** recorded at **12-minute intervals** over a 24-hour emulated period  
+- **Performance results** for every combination of configuration and traffic profile, featuring **88 metrics per direction** (uplink and downlink), such as:
+  - Latency  
+  - Frame loss ratio  
+  - Bit error rate  
+  - Throughput  
+  - Packet size  
+- **Traffic patterns** derived from both **real-world studies** [1,2,3] and **synthetic scenarios**, applied to diverse network configurations  
+- Data stored in **multi-indexed Pandas DataFrames** to enable structured and efficient analysis
 
 
 ## Experimental Setup
