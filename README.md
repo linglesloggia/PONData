@@ -7,7 +7,7 @@ This repository contains an open dataset collected from our experimental study o
 The dataset includes measurements from a commercial GPON platform equipped with SDN orchestration to enable traffic-adaptive uplink resource allocation. It serves as a valuable resource for analyzing GPON performance and testing dynamic configuration strategies in realistic network conditions.
 
 ## Download the Dataset
-The dataset is available for download here [French mirror](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
+The dataset is available for download [here](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
 
 ### Contents
 - 44,385 measurement points (703.8 MB of CSV data)
