@@ -1,9 +1,22 @@
-# Citation
+## License & Citation
 
-If you use this dataset in your research, please cite our paper:
+This dataset is made available under the **Open Data Commons Attribution-NonCommercial 1.0 License (ODC-BY-NC 1.0)**.
 
-```bibtex```
+You are free to use this dataset for non-commercial research and academic purposes **as long as you give appropriate credit**.
 
+### 📌 Citation Requirement
+
+If you use this dataset in a publication, please cite it as follows:
+
+```bibtex
+@misc{TO_BE_UPDATED,
+  author = {L.Inglés, L.Anet, C.Rattaro, M.Morvan, A.Castro, L.Nuaymi},
+  title = {PON Physical Twin: Enabling Third-party Research on FTTH Optimization with Open Datasets},
+  year = {2025},
+  howpublished = {},
+  note = {DOI or publication details to be added}
+}
+```
 # Dynamic PON Configuration Dataset
 
 This repository contains an open dataset collected from our experimental study on dynamic configuration of Passive Optical Networks (PON). The dataset captures detailed measurements under varying traffic conditions and T-CONT configurations.
@@ -21,23 +34,22 @@ The dataset is available for download [here](https://partage.imt.fr/index.php/s/
 - Currently 6 datasets are available (still growing), each with different configurations and traffic patterns
 - Network configurations and user traffic profiles recorded at regular 12-minute intervals across the emulated 24-hour period.
 - Performance results for each combination of configuration and traffic profile, including eighty-eight metrics per direction (uplink and downlink) such as latency, frame loss ratio, bit error rate, throughput, and packet size.
-- Traffic patterns derived from both real-world studies and synthetic scenarios, applied to various network configurations.
+- Traffic patterns derived from both real-world studies [1,2,3] and synthetic scenarios, applied to various network configurations.
 - Data stored in multi-indexed Pandas DataFrames for structured analysis.
 
 
 ## Experimental Setup
 
 ![Diagram](imgs/infrastructure_photograph.png)
-The datasets were carried out using commercial deployment equipment, including:
-- OLT
-- 16 ONUs
+
+The dataset was collected in a controlled laboratory environment, simulating a GPON network with the following components:
+
+- OLT (Optical Line Terminal)
+- 16 ONUs (Optical Network Units)
 - Traffic generator
 - Ethernet switches
 - Server
 - SDN controller
-
-### Traffic Patterns
--  Real-world traffic patterns derived from studies [1,2,3] on residential and business networks
 
 ## Use Cases
 
