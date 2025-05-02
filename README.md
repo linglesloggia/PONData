@@ -1,3 +1,9 @@
+# Citation
+
+If you use this dataset in your research, please cite our paper:
+
+```bibtex```
+
 # Dynamic PON Configuration Dataset
 
 This repository contains an open dataset collected from our experimental study on dynamic configuration of Passive Optical Networks (PON). The dataset captures detailed measurements under varying traffic conditions and T-CONT configurations.
@@ -10,14 +16,19 @@ The dataset includes measurements from a commercial GPON platform equipped with 
 The dataset is available for download [here](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
 
 ### Contents
-- 44,385 measurement points (703.8 MB of CSV data)
-- Collected over a two-week period
+- 2.43 GB of CSV data
 - Includes traffic generator outputs and network parameters
+- Currently 6 datasets are available (still growing), each with different configurations and traffic patterns
+- Network configurations and user traffic profiles recorded at regular 12-minute intervals across the emulated 24-hour period.
+- Performance results for each combination of configuration and traffic profile, including eighty-eight metrics per direction (uplink and downlink) such as latency, frame loss ratio, bit error rate, throughput, and packet size.
+- Traffic patterns derived from both real-world studies and synthetic scenarios, applied to various network configurations.
+- Data stored in multi-indexed Pandas DataFrames for structured analysis.
+
 
 ## Experimental Setup
 
 ![Diagram](imgs/infrastructure_photograph.png)
-The experiment was carried out using commercial deployment equipment, including:
+The datasets were carried out using commercial deployment equipment, including:
 - OLT
 - 16 ONUs
 - Traffic generator
@@ -26,9 +37,8 @@ The experiment was carried out using commercial deployment equipment, including:
 - SDN controller
 
 ### Traffic Patterns
-- **Fixed clients**: 15 ONUs with usage profiles showing minimal activity at 3 a.m. and peak at 9 p.m.
-- **High-demand ONU**: 1 ONU simulating bursty or mobile-like traffic, with peak usage at 3 p.m.
-- Users were grouped into heavy, medium, and low usage categories
+-  
+
 
 ### T-CONT Configuration
 - **TCONT 1**: Used for high-demand traffic, defined by the FIR parameter
@@ -49,9 +59,4 @@ This dataset can be used for:
 4. Benchmarking PON solutions in research
 5. Studying QoS management in shared optical infrastructure
 
-## Citation
 
-If you use this dataset in your research, please cite our paper:
-
-```bibtex
- 
