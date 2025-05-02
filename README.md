@@ -39,14 +39,7 @@ The experiment was carried out using commercial deployment equipment, including:
 
 ## Dataset Structure
 
-```
-├── README.md
-├── data/
-│   ├── raw/           # Raw CSV data from measurements
-│   └── processed/     # Cleaned and processed data
-├── metadata/          # Information about data structure and collection
-└── models/            # Prediction models from the paper
-```
+
 
 
 ## Use Cases
