@@ -10,7 +10,7 @@ If you use this dataset in a publication, please cite it as follows:
 
 ```bibtex
 @misc{TO_BE_UPDATED,
-  author = {L.Inglés, L.Anet, C.Rattaro, M.Morvan, A.Castro, L.Nuaymi},
+  author = {L.Inglés, L.Anet Neto, C.Rattaro, M.Morvan, A.Castro, L.Nuaymi},
   title = {PON Physical Twin: Enabling Third-party Research on FTTH Optimization with Open Datasets},
   year = {},
   howpublished = {},
