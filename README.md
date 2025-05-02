@@ -37,18 +37,7 @@ The datasets were carried out using commercial deployment equipment, including:
 - SDN controller
 
 ### Traffic Patterns
--  
-
-
-### T-CONT Configuration
-- **TCONT 1**: Used for high-demand traffic, defined by the FIR parameter
-- **TCONT 3**: Used for regular client traffic, defined by PIR and CIR parameters
-- Multiple combinations of FIR, PIR, and CIR values were tested during data collection
-
-## Dataset Structure
-
-
-
+-  Real-world traffic patterns derived from studies [1,2,3] on residential and business networks
 
 ## Use Cases
 
@@ -59,4 +48,7 @@ This dataset can be used for:
 4. Benchmarking PON solutions in research
 5. Studying QoS management in shared optical infrastructure
 
-
+### References
+[1] Feknous et al., *Internet traffic analysis*, 2014.  
+[2] Zhang et al., *Residential traffic modeling*, 2010.  
+[3] Kihl et al., *Traffic characterization for IPTV*, 2010.  
