@@ -23,8 +23,8 @@ This repository contains an open dataset collected from our experimental study o
 
 ## Dataset Overview
 
-
-The dataset is available for download [here](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
+~~The dataset is available for download [here]()~~  
+The dataset will be made available upon publication of the corresponding paper, in order to ensure proper referencing and context.
 
 Each dataset (ZIP file) corresponds to a specific 24-hour traffic pattern. Currently, six datasets are available (and the collection is growing), each featuring a distinct traffic behavior. These datasets include:
 
