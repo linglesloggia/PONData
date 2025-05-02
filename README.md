@@ -21,14 +21,15 @@ If you use this dataset in a publication, please cite it as follows:
 
 This repository contains an open dataset collected from our experimental study on dynamic configuration of Passive Optical Networks (PON). The dataset captures detailed measurements under varying traffic conditions and T-CONT configurations.
 
+⚠️ This dataset is continuously growing. New configurations and measurements will be added over time.
+
 ## Dataset Overview
 
-The dataset includes measurements from a commercial GPON platform equipped with SDN orchestration to enable traffic-adaptive uplink resource allocation. It serves as a valuable resource for analyzing GPON performance and testing dynamic configuration strategies in realistic network conditions.
 
-## Download the Dataset
 The dataset is available for download [here](https://partage.imt.fr/index.php/s/nEGj4ENnWYgFGE2)
 
-### Contents
+The dataset includes:
+
 - 2.43 GB of CSV data
 - Includes traffic generator outputs and network parameters
 - Currently 6 datasets are available (still growing), each with different configurations and traffic patterns
