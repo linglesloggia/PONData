@@ -16,6 +16,7 @@ The dataset is available for download [here](https://partage.imt.fr/index.php/s/
 
 ## Experimental Setup
 
+![Diagram](imgs/infrastructure_photograph.png)
 The experiment was carried out using commercial deployment equipment, including:
 - OLT
 - 16 ONUs
