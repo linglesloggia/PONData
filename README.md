@@ -9,12 +9,11 @@ You are free to use this dataset for non-commercial research and academic purpos
 If you use this dataset in a publication, please cite it as follows:
 
 ```bibtex
-@misc{TO_BE_UPDATED,
-  author = {L.Inglés, L.Anet Neto, C.Rattaro, M.Morvan, A.Castro, L.Nuaymi},
-  title = {PON Physical Twin: Enabling Third-party Research on FTTH Optimization with Open Datasets},
-  year = {},
-  howpublished = {},
-  note = {DOI or publication details to be added}
+@inproceedings{lingles2025pon,
+  author    = {L. Inglés and L. Anet Neto and C. Rattaro and M. Morvan and A. Castro and L. Nuaymi},
+  title     = {PON Physical Twin: Enabling Third-party Research on {FTTH} Optimization with Open Datasets},
+  booktitle = {Proceedings of the European Conference on Optical Communication (ECOC)},
+  year      = {2025}
 }
 ```
 # Dynamic PON Configuration Dataset
